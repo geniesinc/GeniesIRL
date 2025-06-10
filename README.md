@@ -86,3 +86,7 @@ Please refer to GeniesIrlDocumentation.pdf inside the root folder for more infor
 ---
 
 > For licensing, notices, and contributor information, see [NOTICE](NOTICE), [LICENSE](LICENSE), and [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
+
+## Contact
+
+For inquiries or support, please contact: devrelations@genies.com
