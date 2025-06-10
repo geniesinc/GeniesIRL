@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02293ff6dae204805909451318f7daa3, type: 3}
+  m_Name: GeniesSilversFingersMapping
+  m_EditorClassIdentifier: 
+  SidePrefix:
+  - Left
+  - Right
+  FingersOffset: {x: -90, y: 0, z: 0}
+  jointMappings:
+  - jointID: 3
+    jointRigName: HandThumb1
+  - jointID: 4
+    jointRigName: HandThumb2
+  - jointID: 5
+    jointRigName: HandThumb3
+  - jointID: 8
+    jointRigName: HandIndex1
+  - jointID: 9
+    jointRigName: HandIndex2
+  - jointID: 10
+    jointRigName: HandIndex3
+  - jointID: 13
+    jointRigName: HandMiddle1
+  - jointID: 14
+    jointRigName: HandMiddle2
+  - jointID: 15
+    jointRigName: HandMiddle3
+  - jointID: 18
+    jointRigName: HandRing1
+  - jointID: 19
+    jointRigName: HandRing2
+  - jointID: 20
+    jointRigName: HandRing3
+  - jointID: 23
+    jointRigName: HandPinky1
+  - jointID: 24
+    jointRigName: HandPinky2
+  - jointID: 25
+    jointRigName: HandPinky3

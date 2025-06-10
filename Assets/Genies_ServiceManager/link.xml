@@ -1,0 +1,13 @@
+﻿<linker>
+  <assembly fullname="Genies.Assets.Services">
+    <type fullname="Genies.Assets.Services.AddressableAssetsService" preserve="all" />
+  </assembly>
+  <assembly fullname="Genies.FeatureFlags">
+    <type fullname="Genies.Components.FeatureFlags.FeatureFlagsManagerFromApi" preserve="all" />
+    <type fullname="Genies.FeatureFlags.FeatureManager" preserve="all" />
+  </assembly>
+  <assembly fullname="Genies.Utilities">
+    <type fullname="Genies.Utilities.GeniesAppStateManager" preserve="all" />
+    <type fullname="Genies.Utilities.ImageLoader" preserve="all" />
+  </assembly>
+</linker>

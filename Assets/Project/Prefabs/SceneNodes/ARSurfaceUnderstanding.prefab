@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6360742464025249919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 356858764590265043}
+  - component: {fileID: 3277834893584016536}
+  m_Layer: 0
+  m_Name: ARSurfaceUnderstanding
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &356858764590265043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6360742464025249919}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3277834893584016536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6360742464025249919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06c97f191a244f16aa60d979ecbf058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seatProcessor:
+    seatPrefab: {fileID: 9180133632850954845, guid: eb5ea30e298144eaea0eaa9d3eef745d, type: 3}
+    seatHeightOffset: 0.05
+  wallProcessor:
+    drawingSpacePrefab: {fileID: 332621331058653050, guid: 935ff0a9a84504d4bb3fe415ded3ae2a, type: 3}
+    y: 1.1
+    margin: 0.1
+    additionalBoxOffset: 0
+    boxDimensions: {x: 0.5, y: 0.5, z: 0.5}
+    debugMode: 0
+  windowProcessor:
+    windowPrefab: {fileID: 544863782838388458, guid: 174743d3e96d942f2a703576b6b8ead1, type: 3}
+    debugMode: 0
+  itemPlacementOnHorizontalSurfaces:
+    maxElevationAboveFloor: 1.5
+    hitmask:
+      serializedVersion: 2
+      m_Bits: 536887296
+    debugMode: 0
+    debugEnableAutoUpdateEveryInterval: 0
+    debugInterval: 5
+    debugMaterial: {fileID: 2100000, guid: 2ea35947aa4f248eb85fda5af90ca49e, type: 2}
+    debugItemSize: {x: 0.2, y: 0.2, z: 0.2}

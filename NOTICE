@@ -1,0 +1,35 @@
+Genies IRL  
+Copyright 2025 Genies, Inc.
+
+This project includes software developed by the Genies XR Team, and is licensed under Apache 2.0. The text of Apache 2.0 can be found in the included 'LICENSE' file.
+
+==================================================================
+NOTICE REGARDING BUNDLED CONTENT
+==================================================================
+
+This project includes bundled assets and code licensed *separately* from this project, under their own respective licenses. Usage of this bundled content is subject to the terms and conditions of each associated license.
+
+For a complete list of licenses, notices, and attributions for all bundled content, please refer to the `LICENSE` file.
+
+
+==================================================================
+BUNDLED CONTENT LICENSED UNDER APACHE 2.0
+==================================================================
+
+The following re-distributed code and assets are licensed under Apache 2.0, and is thus declared here in this NOTICE. It is the only Apache 2.0-licensed work that is re-distributed in the project.
+
+------------------------------------------------------------------
+Unity XR Interaction Toolkit Samples (version 3.0.7)
+------------------------------------------------------------------
+
+Certain files and assets in this project are derived from or incorporate content from the Unity XR Interaction Toolkit Samples, version 3.0.7, © Unity Technologies. This content is licensed under Apache 2.0.
+
+- Source: https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.0/license/Third%20Party%20Notices.html
+
+**Note on Modified Unity Samples**:  
+Some files derived from the Unity XR Hands Samples and/or XR Interaction Toolkit Samples may have been modified by Genies, Inc. or its contributors. While we aim to mark all modified files clearly, omissions may occur due to ongoing project evolution. For a detailed list of modified files, please contact us.
+
+**License Reminder**:  
+These Unity sample assets and scripts are redistributed under their original license terms. No changes have been made to those terms. Your use of these materials remains subject to Unity’s licensing terms as provided in the source link above.
+
+

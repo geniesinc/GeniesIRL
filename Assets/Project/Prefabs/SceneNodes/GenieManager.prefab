@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &804632194521826517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7361460231772232279}
+  - component: {fileID: 2306953680932121951}
+  m_Layer: 0
+  m_Name: GenieManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7361460231772232279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804632194521826517}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2306953680932121951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804632194521826517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d8a7f851a95405f9875106ebe1f735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnOrTeleportFXPrefab: {fileID: 3220705620554990289, guid: 1f6845c0cd63d48c6a935354e24c1975, type: 3}
+  geniePrefab: {fileID: 641429195737067621, guid: 2d353de5ddb33489b81e00bdc197bc41, type: 3}
+  spawnPlacementSettings:
+    minDistanceFromUser: 1.25
+    maxDistanceFromUser: 4
+    fieldOfView: 60
+    distanceScoreWeight: 50
+    directionScoreWeight: 50
+  state: 0
+  islandDistanceThreshold: 2
+  maxIslandDuration: 4
+  floorYRespawnThreshold: 0.2

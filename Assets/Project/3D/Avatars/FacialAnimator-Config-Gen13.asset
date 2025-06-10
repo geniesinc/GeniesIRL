@@ -1,0 +1,1467 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6e316ec49c4e1cb47b0fe2e8612fff, type: 3}
+  m_Name: FacialAnimator-Config-Gen13
+  m_EditorClassIdentifier: 
+  channels:
+  - inputChannelName: EYES_CLOSED_L
+    drivenAttributes:
+    - outputChannelName: EYES_CLOSED_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: EYES_CLOSED_R
+    drivenAttributes:
+    - outputChannelName: EYES_CLOSED_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: EYES_LOOK_DOWN_L
+    drivenAttributes:
+    - outputChannelName: EYES_LOOK_DOWN_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_L_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: EYES_LOOK_DOWN_R
+    drivenAttributes:
+    - outputChannelName: EYES_LOOK_DOWN_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_R_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: EYES_LOOK_RIGHT_L
+    drivenAttributes:
+    - outputChannelName: EYES_LOOK_RIGHT_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_L_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: EYES_LOOK_LEFT_R
+    drivenAttributes:
+    - outputChannelName: EYES_LOOK_LEFT_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_R_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: EYES_LOOK_UP_L
+    drivenAttributes:
+    - outputChannelName: EYES_LOOK_UP_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_L_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: EYES_LOOK_UP_R
+    drivenAttributes:
+    - outputChannelName: EYES_LOOK_UP_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_R_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: EYES_LOOK_LEFT_L
+    drivenAttributes:
+    - outputChannelName: EYES_LOOK_LEFT_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_L_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: EYES_LOOK_RIGHT_R
+    drivenAttributes:
+    - outputChannelName: EYES_LOOK_RIGHT_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_R_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: UPPER_LID_RAISER_L
+    drivenAttributes:
+    - outputChannelName: UPPER_LID_RAISER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: UPPER_LID_RAISER_R
+    drivenAttributes:
+    - outputChannelName: UPPER_LID_RAISER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LID_TIGHTENER_L
+    drivenAttributes:
+    - outputChannelName: LID_TIGHTENER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LID_TIGHTENER_R
+    drivenAttributes:
+    - outputChannelName: LID_TIGHTENER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: JAW_THRUST
+    drivenAttributes:
+    - outputChannelName: JAW_THRUST
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - tongue_geo
+      - teethLower_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: JAW_COMPRESSOR
+    drivenAttributes:
+    - outputChannelName: JAW_COMPRESSOR
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - tongue_geo
+      - teethLower_geo
+      - teethUpper_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: JAW_DROP
+    drivenAttributes:
+    - outputChannelName: JAW_DROP
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - tongue_geo
+      - teethLower_geo
+      - teethUpper_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: JAW_RETREAT
+    drivenAttributes:
+    - outputChannelName: JAW_RETREAT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - tongue_geo
+      - teethLower_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: JAW_SIDEWAYS_LEFT
+    drivenAttributes:
+    - outputChannelName: JAW_SIDEWAYS_LEFT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - tongue_geo
+      - teethLower_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: JAW_SIDEWAYS_RIGHT
+    drivenAttributes:
+    - outputChannelName: JAW_SIDEWAYS_RIGHT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - tongue_geo
+      - teethLower_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: MOUTH_LEFT
+    drivenAttributes:
+    - outputChannelName: MOUTH_LEFT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: MOUTH_RIGHT
+    drivenAttributes:
+    - outputChannelName: MOUTH_RIGHT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_CORNER_PULLER_L
+    drivenAttributes:
+    - outputChannelName: LIP_CORNER_PULLER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_CORNER_PULLER_R
+    drivenAttributes:
+    - outputChannelName: LIP_CORNER_PULLER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_CORNER_DEPRESSOR_L
+    drivenAttributes:
+    - outputChannelName: LIP_CORNER_DEPRESSOR_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_CORNER_DEPRESSOR_R
+    drivenAttributes:
+    - outputChannelName: LIP_CORNER_DEPRESSOR_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: DIMPLER_L
+    drivenAttributes:
+    - outputChannelName: DIMPLER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: DIMPLER_R
+    drivenAttributes:
+    - outputChannelName: DIMPLER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_STRETCHER_L
+    drivenAttributes:
+    - outputChannelName: LIP_STRETCHER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_STRETCHER_R
+    drivenAttributes:
+    - outputChannelName: LIP_STRETCHER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: CHIN_RAISER_B
+    drivenAttributes:
+    - outputChannelName: CHIN_RAISER_B
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: CHIN_RAISER_T
+    drivenAttributes:
+    - outputChannelName: CHIN_RAISER_T
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LOWER_LIP_DEPRESSOR_L
+    drivenAttributes:
+    - outputChannelName: LOWER_LIP_DEPRESSOR_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LOWER_LIP_DEPRESSOR_R
+    drivenAttributes:
+    - outputChannelName: LOWER_LIP_DEPRESSOR_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: UPPER_LIP_RAISER_L
+    drivenAttributes:
+    - outputChannelName: UPPER_LIP_RAISER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: UPPER_LIP_RAISER_R
+    drivenAttributes:
+    - outputChannelName: UPPER_LIP_RAISER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: BROW_LOWERER_L
+    drivenAttributes:
+    - outputChannelName: BROW_LOWERER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: BROW_LOWERER_R
+    drivenAttributes:
+    - outputChannelName: BROW_LOWERER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: INNER_BROW_RAISER_L
+    drivenAttributes:
+    - outputChannelName: INNER_BROW_RAISER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: INNER_BROW_RAISER_R
+    drivenAttributes:
+    - outputChannelName: INNER_BROW_RAISER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: OUTER_BROW_RAISER_L
+    drivenAttributes:
+    - outputChannelName: OUTER_BROW_RAISER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: OUTER_BROW_RAISER_R
+    drivenAttributes:
+    - outputChannelName: OUTER_BROW_RAISER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: CHEEK_PUFF_L
+    drivenAttributes:
+    - outputChannelName: CHEEK_PUFF_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: CHEEK_PUFF_R
+    drivenAttributes:
+    - outputChannelName: CHEEK_PUFF_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: NOSE_WRINKLER_L
+    drivenAttributes:
+    - outputChannelName: NOSE_WRINKLER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: NOSE_WRINKLER_R
+    drivenAttributes:
+    - outputChannelName: NOSE_WRINKLER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: INNER_BROW_CONTRACTOR_L
+    drivenAttributes:
+    - outputChannelName: INNER_BROW_CONTRACTOR_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: INNER_BROW_CONTRACTOR_R
+    drivenAttributes:
+    - outputChannelName: INNER_BROW_CONTRACTOR_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: MOUTH_RAISER
+    drivenAttributes:
+    - outputChannelName: MOUTH_RAISER
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: MOUTH_LOWERER
+    drivenAttributes:
+    - outputChannelName: MOUTH_LOWERER
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: CHEEK_SUCK_L
+    drivenAttributes:
+    - outputChannelName: CHEEK_SUCK_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: CHEEK_SUCK_R
+    drivenAttributes:
+    - outputChannelName: CHEEK_SUCK_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_PRESSOR_L
+    drivenAttributes:
+    - outputChannelName: LIP_PRESSOR_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_PRESSOR_R
+    drivenAttributes:
+    - outputChannelName: LIP_PRESSOR_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIPS_TOWARD
+    drivenAttributes:
+    - outputChannelName: LIPS_TOWARD
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LID_TIGHTENER_L
+    drivenAttributes:
+    - outputChannelName: LID_TIGHTENER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LID_TIGHTENER_R
+    drivenAttributes:
+    - outputChannelName: LID_TIGHTENER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: CHEEK_RAISER_L
+    drivenAttributes:
+    - outputChannelName: CHEEK_RAISER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: CHEEK_RAISER_R
+    drivenAttributes:
+    - outputChannelName: CHEEK_RAISER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_TIGHTENER_L
+    drivenAttributes:
+    - outputChannelName: LIP_TIGHTENER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_TIGHTENER_R
+    drivenAttributes:
+    - outputChannelName: LIP_TIGHTENER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_FUNNELER_LT
+    drivenAttributes:
+    - outputChannelName: LIP_FUNNELER_LT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_FUNNELER_RT
+    drivenAttributes:
+    - outputChannelName: LIP_FUNNELER_RT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_FUNNELER_LB
+    drivenAttributes:
+    - outputChannelName: LIP_FUNNELER_LB
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_FUNNELER_RB
+    drivenAttributes:
+    - outputChannelName: LIP_FUNNELER_RB
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_PUCKER_L
+    drivenAttributes:
+    - outputChannelName: LIP_PUCKER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_PUCKER_R
+    drivenAttributes:
+    - outputChannelName: LIP_PUCKER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_SUCK_LT
+    drivenAttributes:
+    - outputChannelName: LIP_SUCK_LT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_SUCK_RT
+    drivenAttributes:
+    - outputChannelName: LIP_SUCK_RT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_SUCK_LB
+    drivenAttributes:
+    - outputChannelName: LIP_SUCK_LB
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: LIP_SUCK_RB
+    drivenAttributes:
+    - outputChannelName: LIP_SUCK_RB
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: CHIN_DEPRESSOR_B
+    drivenAttributes:
+    - outputChannelName: CHIN_DEPRESSOR_B
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: TONGUE_RAISER
+    drivenAttributes:
+    - outputChannelName: TONGUE_RAISER
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: TONGUE_LOWERER
+    drivenAttributes:
+    - outputChannelName: TONGUE_LOWERER
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: TONGUE_CURLER_DOWN
+    drivenAttributes:
+    - outputChannelName: TONGUE_CURLER_DOWN
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: TONGUE_CURLER_UP
+    drivenAttributes:
+    - outputChannelName: TONGUE_CURLER_UP
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: TONGUE_OUT
+    drivenAttributes:
+    - outputChannelName: TONGUE_OUT
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: TONGUE_RETREAT
+    drivenAttributes:
+    - outputChannelName: TONGUE_RETREAT
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: TONGUE_STRETCHER
+    drivenAttributes:
+    - outputChannelName: TONGUE_STRETCHER
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: TONGUE_COMPRESSOR
+    drivenAttributes:
+    - outputChannelName: TONGUE_COMPRESSOR
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: TONGUE_TIP_OUT
+    drivenAttributes:
+    - outputChannelName: TONGUE_TIP_OUT
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: TONGUE_TIP_OUT_L
+    drivenAttributes:
+    - outputChannelName: TONGUE_TIP_OUT_L
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: TONGUE_TIP_OUT_R
+    drivenAttributes:
+    - outputChannelName: TONGUE_TIP_OUT_R
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: TONGUE_OUT_CURLER
+    drivenAttributes:
+    - outputChannelName: TONGUE_OUT_CURLER
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: TONGUE_OUT_CURLER_L
+    drivenAttributes:
+    - outputChannelName: TONGUE_OUT_CURLER_L
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: TONGUE_OUT_CURLER_R
+    drivenAttributes:
+    - outputChannelName: TONGUE_OUT_CURLER_R
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: eye_blink_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: EYES_CLOSED_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: UPPER_LID_RAISER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: eye_blink_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: EYES_CLOSED_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: UPPER_LID_RAISER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: eyeJoy_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: EYES_LOOK_UP_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_L_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: EYES_LOOK_DOWN_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_L_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: eyeJoy_L_ctl_translateX
+    drivenAttributes:
+    - outputChannelName: EYES_LOOK_LEFT_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_L_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: EYES_LOOK_RIGHT_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_L_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: eyeJoy_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: EYES_LOOK_UP_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_R_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: EYES_LOOK_DOWN_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_R_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: eyeJoy_R_ctl_translateX
+    drivenAttributes:
+    - outputChannelName: EYES_LOOK_RIGHT_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_R_geo
+      retargetBehavior: 2
+      targetWeight: 0
+    - outputChannelName: EYES_LOOK_LEFT_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eye_R_geo
+      retargetBehavior: 1
+      targetWeight: 0
+  - inputChannelName: eye_cheekRaise_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: CHEEK_RAISER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eyebrows_geo
+      - beard_geo
+      - glasses_geo
+      retargetBehavior: 3
+      targetWeight: 0.418
+    - outputChannelName: LID_TIGHTENER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eyebrows_geo
+      - beard_geo
+      - glasses_geo
+      retargetBehavior: 3
+      targetWeight: 0.324
+    - outputChannelName: EYES_CLOSED_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eyebrows_geo
+      - beard_geo
+      - glasses_geo
+      retargetBehavior: 3
+      targetWeight: 0.167
+    - outputChannelName: BROW_LOWERER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eyebrows_geo
+      - beard_geo
+      - glasses_geo
+      retargetBehavior: 3
+      targetWeight: 0.843
+    - outputChannelName: INNER_BROW_RAISER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eyebrows_geo
+      - beard_geo
+      - glasses_geo
+      retargetBehavior: 3
+      targetWeight: 0.61
+  - inputChannelName: eye_cheekRaise_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: CHEEK_RAISER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eyebrows_geo
+      - beard_geo
+      - glasses_geo
+      retargetBehavior: 3
+      targetWeight: 0.418
+    - outputChannelName: LID_TIGHTENER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eyebrows_geo
+      - beard_geo
+      - glasses_geo
+      retargetBehavior: 3
+      targetWeight: 0.324
+    - outputChannelName: EYES_CLOSED_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eyebrows_geo
+      - beard_geo
+      - glasses_geo
+      retargetBehavior: 3
+      targetWeight: 0.167
+    - outputChannelName: BROW_LOWERER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eyebrows_geo
+      - beard_geo
+      - glasses_geo
+      retargetBehavior: 3
+      targetWeight: 0.843
+    - outputChannelName: INNER_BROW_RAISER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyelashes_geo
+      - eyebrows_geo
+      - beard_geo
+      - glasses_geo
+      retargetBehavior: 3
+      targetWeight: 0.61
+  - inputChannelName: brow_lateral_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: INNER_BROW_CONTRACTOR_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: brow_lateral_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: INNER_BROW_CONTRACTOR_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: brow_down_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: BROW_LOWERER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: brow_down_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: BROW_LOWERER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: brow_raiseIn_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: INNER_BROW_RAISER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: brow_raiseIn_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: INNER_BROW_RAISER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: brow_raiseOut_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: OUTER_BROW_RAISER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: brow_raiseOut_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: OUTER_BROW_RAISER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - eyebrows_geo
+      - glasses_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: jaw_C_ctl_translateX
+    drivenAttributes:
+    - outputChannelName: JAW_SIDEWAYS_RIGHT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - gumsLower_geo
+      - gumsUpper_geo
+      - teethLower_geo
+      - teethUpper_geo
+      - tongue_geo
+      - beard_geo
+      - mask_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: JAW_SIDEWAYS_LEFT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - gumsLower_geo
+      - gumsUpper_geo
+      - teethLower_geo
+      - teethUpper_geo
+      - tongue_geo
+      - beard_geo
+      - mask_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: jaw_C_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: JAW_DROP
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - gumsLower_geo
+      - gumsUpper_geo
+      - teethLower_geo
+      - teethUpper_geo
+      - tongue_geo
+      - beard_geo
+      - mask_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: JAW_COMPRESSOR
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - gumsLower_geo
+      - gumsUpper_geo
+      - teethLower_geo
+      - teethUpper_geo
+      - tongue_geo
+      - beard_geo
+      - mask_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: jaw_fwdBack_C_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: JAW_THRUST
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - gumsLower_geo
+      - gumsUpper_geo
+      - teethLower_geo
+      - teethUpper_geo
+      - tongue_geo
+      - beard_geo
+      - mask_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: JAW_RETREAT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - gumsLower_geo
+      - gumsUpper_geo
+      - teethLower_geo
+      - teethUpper_geo
+      - tongue_geo
+      - beard_geo
+      - mask_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: tongueInOut_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: TONGUE_OUT
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: TONGUE_RETREAT
+      targetSubmeshes:
+      - tongue_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: mouth_main_C_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: MOUTH_RAISER
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: MOUTH_LOWERER
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: mouth_main_C_ctl_translateX
+    drivenAttributes:
+    - outputChannelName: MOUTH_LEFT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: MOUTH_RIGHT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: mouth_dimple_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: DIMPLER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: mouth_dimple_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: DIMPLER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: mouth_cornerDepress_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: LIP_CORNER_DEPRESSOR_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: mouth_cornerDepress_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: LIP_CORNER_DEPRESSOR_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: mouth_funnel_C_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: LIP_FUNNELER_LT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+    - outputChannelName: LIP_FUNNELER_RT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+    - outputChannelName: LIP_FUNNELER_LB
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+    - outputChannelName: LIP_FUNNELER_RB
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: mouth_pucker_C_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: LIP_PUCKER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+    - outputChannelName: LIP_PUCKER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: mouth_lowerLipDepress_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: LOWER_LIP_DEPRESSOR_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: mouth_lowerLipDepress_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: LOWER_LIP_DEPRESSOR_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: mouth_rollShrugUpper_C_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: LIP_SUCK_LT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 2
+      targetWeight: 0
+    - outputChannelName: LIP_SUCK_RT
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 2
+      targetWeight: 0
+    - outputChannelName: CHIN_RAISER_T
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 1
+      targetWeight: 0
+  - inputChannelName: mouth_rollShrugLower_C_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: LIP_SUCK_LB
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 2
+      targetWeight: 0
+    - outputChannelName: LIP_SUCK_RB
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 2
+      targetWeight: 0
+    - outputChannelName: CHIN_DEPRESSOR_B
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 1
+      targetWeight: 0
+  - inputChannelName: mouth_cornerPull_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: LIP_CORNER_PULLER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: mouth_cornerPull_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: LIP_CORNER_PULLER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: mouth_stretch_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: LIP_STRETCHER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: mouth_stretch_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: LIP_STRETCHER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: mouth_upperLipRaise_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: UPPER_LIP_RAISER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: mouth_upperLipRaise_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: UPPER_LIP_RAISER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 0
+      targetWeight: 0
+  - inputChannelName: mouth_suckBlow_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: CHEEK_PUFF_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: CHEEK_SUCK_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: mouth_suckBlow_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: CHEEK_PUFF_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: CHEEK_SUCK_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: nose_L_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: NOSE_WRINKLER_L
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: nostrilDownLeft
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: nose_R_ctl_translateY
+    drivenAttributes:
+    - outputChannelName: NOSE_WRINKLER_R
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 1
+      targetWeight: 0
+    - outputChannelName: nostrilDownRight
+      targetSubmeshes:
+      - headOnly_geo
+      - facePiercings_geo
+      - beard_geo
+      retargetBehavior: 2
+      targetWeight: 0
+  - inputChannelName: nose_L_ctl_translateX
+    drivenAttributes: []
+  - inputChannelName: nose_R_ctl_translateX
+    drivenAttributes: []
